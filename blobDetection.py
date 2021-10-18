@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 #Here We use OpenCV To Read the input image
-img = cv2.imread('E:\\MLR\\bd.png')
+img = cv2.imread('Image Path here')
 #Coverts the input image into Grayscale image
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 blurred = cv2.medianBlur(gray, 9)
